@@ -1,0 +1,48 @@
+.addnewtask-general {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 4px;
+
+  padding: 1.2rem 0.6rem;
+  margin-bottom: 1.2rem;
+}
+
+.addnewtask-general input {
+  font: inherit;
+
+  width: 34rem;
+  padding: 1.2rem 0.6rem;
+}
+
+.addnewtask-icon {
+  height: 48px;
+  width: 48px;
+  margin-right: 0.6rem;
+}
+
+.addnewtask-icon:hover {
+  color: rgb(87, 86, 86);
+}
+
+.addnewtask-general button {
+  background: none;
+  border: none;
+}
+
+.invalid input {
+  border: 1px solid #b40e0e;
+  background-color: #fddddd;
+}
+
+.invalid input:focus {
+  border-color: #ff8800;
+  background-color: #fbe8d2;
+}
+
+.error-text {
+  color: #b40e0e;
+}
