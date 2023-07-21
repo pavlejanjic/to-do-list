@@ -35,6 +35,9 @@ function App() {
 
   const filteredItemsHandler = (filteredItems) => {
     setCurrentData(filteredItems);
+    if (!filteredItems.length) {
+      localStorage.setItem("savedTasks", JSON.stringify(filteredItems));
+    }
   };
 
   const updateTaskList = (oldTask) => {
